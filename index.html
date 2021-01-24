@@ -14,13 +14,28 @@
         background-color: #222;
       }
 
-      .page-title {
+      .page-header {
+        display: flex;
+        justify-content: space-between;
+        margin: 50px 0;
         font-size: 10px;
         font-weight: 400;
-        margin: 50px 0;
         color: white;
         text-transform: uppercase;
         letter-spacing: 1px;
+      }
+
+      .page-title {
+        margin: 0;
+        font-size: 10px;
+        font-weight: 400;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      .page-description {
+        margin: 0;
       }
 
       .page-container {
@@ -69,49 +84,250 @@
   </head>
   <body>
     <div class="page-container">
-      <h1 class="page-title">Taylor Lapeyre</h1>
+      <div class="page-header">
+        <h1 class="page-title">Taylor Lapeyre</h1>
+        <p class="page-description">Photography</p>
+      </div>
       <figure class="photo-container">
-        <img class="photo" loading="lazy" src="photos/1.jpg" />
+        <picture>
+          <source
+            media="(min-width: 845px)"
+            srcset="https://taylorlapeyre.imgix.net/1.jpg?w=845"
+          />
+          <source
+            media="(min-width: 545px)"
+            srcset="https://taylorlapeyre.imgix.net/1.jpg?w=545"
+          />
+          <source
+            media="(min-width: 345px)"
+            srcset="https://taylorlapeyre.imgix.net/1.jpg?w=345"
+          />
+          <img
+            class="photo"
+            loading="lazy"
+            src="https://taylorlapeyre.imgix.net/1.jpg?w=845"
+          />
+        </picture>
         <figcaption class="photo-caption">35mm Kodak Portra 800</figcaption>
       </figure>
       <figure class="vertical photo-container">
-        <img class="vertical photo" loading="lazy" src="photos/2.jpg" />
+        <picture>
+          <source
+            media="(min-width: 845px)"
+            srcset="https://taylorlapeyre.imgix.net/2.jpg?w=845"
+          />
+          <source
+            media="(min-width: 545px)"
+            srcset="https://taylorlapeyre.imgix.net/2.jpg?w=545"
+          />
+          <source
+            media="(min-width: 345px)"
+            srcset="https://taylorlapeyre.imgix.net/2.jpg?w=345"
+          />
+          <img
+            class="photo"
+            loading="lazy"
+            src="https://taylorlapeyre.imgix.net/2.jpg?w=845"
+          />
+        </picture>
         <figcaption class="photo-caption">35mm Kodak Colorplus 200</figcaption>
       </figure>
       <figure class="full-bleed photo-container">
-        <img class="photo" loading="lazy" src="photos/3.jpg" />
+        <picture>
+          <source
+            media="(min-width: 845px)"
+            srcset="https://taylorlapeyre.imgix.net/3.jpg"
+          />
+          <source
+            media="(min-width: 545px)"
+            srcset="https://taylorlapeyre.imgix.net/3.jpg?w=545"
+          />
+          <source
+            media="(min-width: 345px)"
+            srcset="https://taylorlapeyre.imgix.net/3.jpg?w=345"
+          />
+          <img
+            class="photo"
+            loading="lazy"
+            src="https://taylorlapeyre.imgix.net/3.jpg"
+          />
+        </picture>
         <figcaption class="photo-caption">35mm Kodak Colorplus 200</figcaption>
       </figure>
       <figure class="vertical photo-container">
-        <img class="photo" loading="lazy" src="photos/4.jpg" />
+        <picture>
+          <source
+            media="(min-width: 845px)"
+            srcset="https://taylorlapeyre.imgix.net/4.jpg?w=845"
+          />
+          <source
+            media="(min-width: 545px)"
+            srcset="https://taylorlapeyre.imgix.net/4.jpg?w=545"
+          />
+          <source
+            media="(min-width: 345px)"
+            srcset="https://taylorlapeyre.imgix.net/4.jpg?w=345"
+          />
+          <img
+            class="photo"
+            loading="lazy"
+            src="https://taylorlapeyre.imgix.net/4.jpg?w=845"
+          />
+        </picture>
         <figcaption class="photo-caption">35mm Kodak Portra 400</figcaption>
       </figure>
       <figure class="vertical photo-container">
-        <img class="photo" loading="lazy" src="photos/5.jpg" />
+        <picture>
+          <source
+            media="(min-width: 845px)"
+            srcset="https://taylorlapeyre.imgix.net/5.jpg?w=845"
+          />
+          <source
+            media="(min-width: 545px)"
+            srcset="https://taylorlapeyre.imgix.net/5.jpg?w=545"
+          />
+          <source
+            media="(min-width: 345px)"
+            srcset="https://taylorlapeyre.imgix.net/5.jpg?w=345"
+          />
+          <img
+            class="photo"
+            loading="lazy"
+            src="https://taylorlapeyre.imgix.net/5.jpg?w=845"
+          />
+        </picture>
         <figcaption class="photo-caption">35mm Kodak Portra 400</figcaption>
       </figure>
       <figure class="photo-container">
-        <img class="photo" loading="lazy" src="photos/6.jpg" />
+        <picture>
+          <source
+            media="(min-width: 845px)"
+            srcset="https://taylorlapeyre.imgix.net/6.jpg?w=845"
+          />
+          <source
+            media="(min-width: 545px)"
+            srcset="https://taylorlapeyre.imgix.net/6.jpg?w=545"
+          />
+          <source
+            media="(min-width: 345px)"
+            srcset="https://taylorlapeyre.imgix.net/6.jpg?w=345"
+          />
+          <img
+            class="photo"
+            loading="lazy"
+            src="https://taylorlapeyre.imgix.net/6.jpg?w=845"
+          />
+        </picture>
         <figcaption class="photo-caption">35mm Kodak Colorplus 200</figcaption>
       </figure>
       <figure class="photo-container">
-        <img class="photo" loading="lazy" src="photos/7.jpg" />
+        <picture>
+          <source
+            media="(min-width: 845px)"
+            srcset="https://taylorlapeyre.imgix.net/7.jpg?w=845"
+          />
+          <source
+            media="(min-width: 545px)"
+            srcset="https://taylorlapeyre.imgix.net/7.jpg?w=545"
+          />
+          <source
+            media="(min-width: 345px)"
+            srcset="https://taylorlapeyre.imgix.net/7.jpg?w=345"
+          />
+          <img
+            class="photo"
+            loading="lazy"
+            src="https://taylorlapeyre.imgix.net/7.jpg?w=845"
+          />
+        </picture>
         <figcaption class="photo-caption">35mm Kodak Ektar 100</figcaption>
       </figure>
       <figure class="photo-container">
-        <img class="photo" loading="lazy" src="photos/8.jpg" />
+        <picture>
+          <source
+            media="(min-width: 845px)"
+            srcset="https://taylorlapeyre.imgix.net/8.jpg?w=845"
+          />
+          <source
+            media="(min-width: 545px)"
+            srcset="https://taylorlapeyre.imgix.net/8.jpg?w=545"
+          />
+          <source
+            media="(min-width: 345px)"
+            srcset="https://taylorlapeyre.imgix.net/8.jpg?w=345"
+          />
+          <img
+            class="photo"
+            loading="lazy"
+            src="https://taylorlapeyre.imgix.net/8.jpg?w=845"
+          />
+        </picture>
         <figcaption class="photo-caption">35mm Kodak Ektar 100</figcaption>
       </figure>
       <figure class="photo-container">
-        <img class="photo" loading="lazy" src="photos/9.jpg" />
+        <picture>
+          <source
+            media="(min-width: 845px)"
+            srcset="https://taylorlapeyre.imgix.net/9.jpg?w=845"
+          />
+          <source
+            media="(min-width: 545px)"
+            srcset="https://taylorlapeyre.imgix.net/9.jpg?w=545"
+          />
+          <source
+            media="(min-width: 345px)"
+            srcset="https://taylorlapeyre.imgix.net/9.jpg?w=345"
+          />
+          <img
+            class="photo"
+            loading="lazy"
+            src="https://taylorlapeyre.imgix.net/9.jpg?w=845"
+          />
+        </picture>
         <figcaption class="photo-caption">35mm Kodak Portra 400</figcaption>
       </figure>
       <figure class="full-bleed photo-container">
-        <img class="photo" loading="lazy" src="photos/10.jpg" />
+        <picture>
+          <source
+            media="(min-width: 845px)"
+            srcset="https://taylorlapeyre.imgix.net/10.jpg?w=1400"
+          />
+          <source
+            media="(min-width: 545px)"
+            srcset="https://taylorlapeyre.imgix.net/10.jpg?w=545"
+          />
+          <source
+            media="(min-width: 345px)"
+            srcset="https://taylorlapeyre.imgix.net/10.jpg?w=345"
+          />
+          <img
+            class="photo"
+            loading="lazy"
+            src="https://taylorlapeyre.imgix.net/10.jpg?w=1400"
+          />
+        </picture>
         <figcaption class="photo-caption">35mm Kodak Portra 400</figcaption>
       </figure>
       <figure class="photo-container">
-        <img class="photo" loading="lazy" src="photos/11.jpg" />
+        <picture>
+          <source
+            media="(min-width: 845px)"
+            srcset="https://taylorlapeyre.imgix.net/11.jpg?w=845"
+          />
+          <source
+            media="(min-width: 545px)"
+            srcset="https://taylorlapeyre.imgix.net/11.jpg?w=545"
+          />
+          <source
+            media="(min-width: 345px)"
+            srcset="https://taylorlapeyre.imgix.net/11.jpg?w=345"
+          />
+          <img
+            class="photo"
+            loading="lazy"
+            src="https://taylorlapeyre.imgix.net/11.jpg?w=845"
+          />
+        </picture>
         <figcaption class="photo-caption">35mm Kodak Portra 800</figcaption>
       </figure>
     </div>
