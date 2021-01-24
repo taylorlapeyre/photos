@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Photos by Taylor Lapeyre</title>
+    <meta charset="utf-8" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: -apple-system;
+        background-color: #222;
+      }
+
+      .page-title {
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 50px;
+        color: white;
+      }
+
+      .page-container {
+        display: grid;
+        grid-template-columns: 1fr min(845px, 90%) 1fr;
+      }
+
+      .page-container > * {
+        grid-column: 2;
+      }
+
+      .photo-container {
+        width: 100%;
+        /*background-color: white;*/
+        padding: 24px;
+        padding-bottom: 10px;
+        border-radius: 4px;
+        margin: 0;
+        margin-bottom: 100px;
+        text-align: center;
+        justify-self: center;
+      }
+
+      .vertical.photo-container {
+        max-width: 60%;
+      }
+
+      .full-bleed.photo-container {
+        width: 100%;
+        grid-column: 1 / 4;
+        padding-left: 8px;
+        padding-right: 8px;
+      }
+
+      .photo {
+        width: 100%;
+      }
+
+      .photo-caption {
+        font-size: 8px;
+        text-align: right;
+        padding-top: 8px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page-container">
+      <h1 class="page-title">Taylor‘s Photos</h1>
+      <figure class="photo-container">
+        <img class="photo" loading="lazy" src="photos/1.jpg" />
+        <figcaption class="photo-caption">35mm Kodak Portra 800</figcaption>
+      </figure>
+      <figure class="vertical photo-container">
+        <img class="vertical photo" loading="lazy" src="photos/2.jpg" />
+        <figcaption class="photo-caption">35mm Kodak Colorplus 200</figcaption>
+      </figure>
+      <figure class="full-bleed photo-container">
+        <img class="photo" loading="lazy" src="photos/3.jpg" />
+        <figcaption class="photo-caption">35mm Kodak Colorplus 200</figcaption>
+      </figure>
+      <figure class="vertical photo-container">
+        <img class="photo" loading="lazy" src="photos/4.jpg" />
+        <figcaption class="photo-caption">35mm Kodak Portra 400</figcaption>
+      </figure>
+      <figure class="vertical photo-container">
+        <img class="photo" loading="lazy" src="photos/5.jpg" />
+        <figcaption class="photo-caption">35mm Kodak Portra 400</figcaption>
+      </figure>
+      <figure class="photo-container">
+        <img class="photo" loading="lazy" src="photos/6.jpg" />
+        <figcaption class="photo-caption">35mm Kodak Colorplus 200</figcaption>
+      </figure>
+      <figure class="photo-container">
+        <img class="photo" loading="lazy" src="photos/7.jpg" />
+        <figcaption class="photo-caption">35mm Kodak Ektar 100</figcaption>
+      </figure>
+    </div>
+  </body>
+</html>
