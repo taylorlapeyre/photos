@@ -15,14 +15,7 @@
       }
 
       .page-header {
-        display: flex;
-        justify-content: space-between;
         margin: 50px 0;
-        font-size: 10px;
-        font-weight: 400;
-        color: white;
-        text-transform: uppercase;
-        letter-spacing: 1px;
       }
 
       .page-title {
@@ -34,8 +27,10 @@
         letter-spacing: 1px;
       }
 
-      .page-description {
-        margin: 0;
+      .page-blurb {
+        font-size: 12px;
+        line-height: 1.4;
+        color: white;
       }
 
       .page-container {
@@ -85,8 +80,15 @@
   <body>
     <div class="page-container">
       <div class="page-header">
-        <h1 class="page-title">Taylor Lapeyre</h1>
-        <p class="page-description">Photography</p>
+        <p class="page-blurb">
+          Welcome. The photos shown on this site were taken with a film camera
+          between the years of 2020-2021. I took them on film so that they can
+          be interpreted as what they are, which is a memory.
+        </p>
+        <p class="page-blurb">
+          Time is moving, so breathe in and scroll down.
+        </p>
+        <h1 class="page-title">— Taylor Lapeyre</h1>
       </div>
       <figure class="photo-container">
         <picture>
@@ -348,6 +350,28 @@
             class="photo"
             loading="lazy"
             src="https://taylorlapeyre.imgix.net/12.jpg?w=845"
+          />
+        </picture>
+        <figcaption class="photo-caption">35mm Kodak Colorplus 200</figcaption>
+      </figure>
+      <figure class="photo-container">
+        <picture>
+          <source
+            media="(min-width: 845px)"
+            srcset="https://taylorlapeyre.imgix.net/13.jpg?w=845"
+          />
+          <source
+            media="(min-width: 545px)"
+            srcset="https://taylorlapeyre.imgix.net/13.jpg?w=545"
+          />
+          <source
+            media="(min-width: 345px)"
+            srcset="https://taylorlapeyre.imgix.net/13.jpg?w=345"
+          />
+          <img
+            class="photo"
+            loading="lazy"
+            src="https://taylorlapeyre.imgix.net/13.jpg?w=845"
           />
         </picture>
         <figcaption class="photo-caption">35mm Kodak Colorplus 200</figcaption>
