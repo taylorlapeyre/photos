@@ -75,6 +75,31 @@
         letter-spacing: 1px;
         color: white;
       }
+
+      .controls {
+        margin-top: 50px;
+        font-size: 12px;
+        line-height: 1.4;
+        color: white;
+      }
+
+      .controls a {
+        font-size: 12px;
+        line-height: 1.4;
+        color: white;
+      }
+
+      .tab-content {
+        display: none;
+      }
+
+      .tab-content:target {
+        display: grid;
+      }
+
+      .tab-content:not(:target) ~ .tab-content {
+        display: grid;
+      }
     </style>
   </head>
   <body>
@@ -88,11 +113,241 @@
           <br /><br />
           How dreary – to be – Somebody!<br />
           How public – like a Frog –<br />
-          To tell one's name – the livelong June –<br />
+          To tell one’s name – the livelong June –<br />
           To an admiring Bog!
         </p>
         <h1 class="page-title">— Emily Dickinson</h1>
+        <div class="controls">
+          <a href="#analog">Analog</a> /
+          <a href="#digital">Digital</a>
+        </div>
       </div>
+    </div>
+
+    <div id="digital" class="tab-content page-container">
+      <figure class="vertical photo-container">
+        <picture>
+          <source
+            media="(min-width: 845px)"
+            srcset="https://taylorlapeyre.imgix.net/d1.jpg?w=1000"
+          />
+          <source
+            media="(min-width: 545px)"
+            srcset="https://taylorlapeyre.imgix.net/d1.jpg?w=545"
+          />
+          <source
+            media="(min-width: 345px)"
+            srcset="https://taylorlapeyre.imgix.net/d1.jpg?w=345"
+          />
+          <img
+            class="photo"
+            loading="lazy"
+            src="https://taylorlapeyre.imgix.net/d1.jpg?w=1000"
+          />
+        </picture>
+        <figcaption class="photo-caption">iPhone 7</figcaption>
+      </figure>
+      <figure class="full-bleed photo-container">
+        <picture>
+          <source
+            media="(min-width: 845px)"
+            srcset="https://taylorlapeyre.imgix.net/d2.jpg?w=1400"
+          />
+          <source
+            media="(min-width: 545px)"
+            srcset="https://taylorlapeyre.imgix.net/d2.jpg?w=545"
+          />
+          <source
+            media="(min-width: 345px)"
+            srcset="https://taylorlapeyre.imgix.net/d2.jpg?w=345"
+          />
+          <img
+            class="photo"
+            loading="lazy"
+            src="https://taylorlapeyre.imgix.net/d2.jpg?w=1400"
+          />
+        </picture>
+        <figcaption class="photo-caption">Sony α5100</figcaption>
+      </figure>
+      <figure class="vertical photo-container">
+        <picture>
+          <source
+            media="(min-width: 845px)"
+            srcset="https://taylorlapeyre.imgix.net/d3.jpg?w=1000"
+          />
+          <source
+            media="(min-width: 545px)"
+            srcset="https://taylorlapeyre.imgix.net/d3.jpg?w=545"
+          />
+          <source
+            media="(min-width: 345px)"
+            srcset="https://taylorlapeyre.imgix.net/d3.jpg?w=345"
+          />
+          <img
+            class="photo"
+            loading="lazy"
+            src="https://taylorlapeyre.imgix.net/d3.jpg?w=1000"
+          />
+        </picture>
+        <figcaption class="photo-caption">iPhone 7</figcaption>
+      </figure>
+      <figure class="vertical photo-container">
+        <picture>
+          <source
+            media="(min-width: 845px)"
+            srcset="https://taylorlapeyre.imgix.net/d4.jpg?w=1400"
+          />
+          <source
+            media="(min-width: 545px)"
+            srcset="https://taylorlapeyre.imgix.net/d4.jpg?w=545"
+          />
+          <source
+            media="(min-width: 345px)"
+            srcset="https://taylorlapeyre.imgix.net/d4.jpg?w=345"
+          />
+          <img
+            class="photo"
+            loading="lazy"
+            src="https://taylorlapeyre.imgix.net/d4.jpg?w=1400"
+          />
+        </picture>
+        <figcaption class="photo-caption">Sony α5100</figcaption>
+      </figure>
+      <figure class="photo-container">
+        <picture>
+          <source
+            media="(min-width: 845px)"
+            srcset="https://taylorlapeyre.imgix.net/d5.jpg?w=1000"
+          />
+          <source
+            media="(min-width: 545px)"
+            srcset="https://taylorlapeyre.imgix.net/d5.jpg?w=545"
+          />
+          <source
+            media="(min-width: 345px)"
+            srcset="https://taylorlapeyre.imgix.net/d5.jpg?w=345"
+          />
+          <img
+            class="photo"
+            loading="lazy"
+            src="https://taylorlapeyre.imgix.net/d5.jpg?w=1000"
+          />
+        </picture>
+        <figcaption class="photo-caption">Sony α7 III</figcaption>
+      </figure>
+      <figure class="photo-container">
+        <picture>
+          <source
+            media="(min-width: 845px)"
+            srcset="https://taylorlapeyre.imgix.net/d6.jpg?w=1000"
+          />
+          <source
+            media="(min-width: 545px)"
+            srcset="https://taylorlapeyre.imgix.net/d6.jpg?w=545"
+          />
+          <source
+            media="(min-width: 345px)"
+            srcset="https://taylorlapeyre.imgix.net/d6.jpg?w=345"
+          />
+          <img
+            class="photo"
+            loading="lazy"
+            src="https://taylorlapeyre.imgix.net/d6.jpg?w=1000"
+          />
+        </picture>
+        <figcaption class="photo-caption">Sony α7 III</figcaption>
+      </figure>
+      <figure class="vertical photo-container">
+        <picture>
+          <source
+            media="(min-width: 845px)"
+            srcset="https://taylorlapeyre.imgix.net/d7.jpg?w=1000"
+          />
+          <source
+            media="(min-width: 545px)"
+            srcset="https://taylorlapeyre.imgix.net/d7.jpg?w=545"
+          />
+          <source
+            media="(min-width: 345px)"
+            srcset="https://taylorlapeyre.imgix.net/d7.jpg?w=345"
+          />
+          <img
+            class="photo"
+            loading="lazy"
+            src="https://taylorlapeyre.imgix.net/d7.jpg?w=1000"
+          />
+        </picture>
+        <figcaption class="photo-caption">iPhone X</figcaption>
+      </figure>
+      <figure class="photo-container">
+        <picture>
+          <source
+            media="(min-width: 845px)"
+            srcset="https://taylorlapeyre.imgix.net/d8.jpg?w=1000"
+          />
+          <source
+            media="(min-width: 545px)"
+            srcset="https://taylorlapeyre.imgix.net/d8.jpg?w=545"
+          />
+          <source
+            media="(min-width: 345px)"
+            srcset="https://taylorlapeyre.imgix.net/d8.jpg?w=345"
+          />
+          <img
+            class="photo"
+            loading="lazy"
+            src="https://taylorlapeyre.imgix.net/d8.jpg?w=1000"
+          />
+        </picture>
+        <figcaption class="photo-caption">Sony α7 III</figcaption>
+      </figure>
+      <figure class="photo-container">
+        <picture>
+          <source
+            media="(min-width: 845px)"
+            srcset="https://taylorlapeyre.imgix.net/d9.jpg?w=1000"
+          />
+          <source
+            media="(min-width: 545px)"
+            srcset="https://taylorlapeyre.imgix.net/d9.jpg?w=545"
+          />
+          <source
+            media="(min-width: 345px)"
+            srcset="https://taylorlapeyre.imgix.net/d9.jpg?w=345"
+          />
+          <img
+            class="photo"
+            loading="lazy"
+            src="https://taylorlapeyre.imgix.net/d9.jpg?w=1000"
+          />
+        </picture>
+        <figcaption class="photo-caption">Sony α5100</figcaption>
+      </figure>
+      <figure class="vertical photo-container">
+        <picture>
+          <source
+            media="(min-width: 845px)"
+            srcset="https://taylorlapeyre.imgix.net/d10.jpg?w=1000"
+          />
+          <source
+            media="(min-width: 545px)"
+            srcset="https://taylorlapeyre.imgix.net/d10.jpg?w=545"
+          />
+          <source
+            media="(min-width: 345px)"
+            srcset="https://taylorlapeyre.imgix.net/d10.jpg?w=345"
+          />
+          <img
+            class="photo"
+            loading="lazy"
+            src="https://taylorlapeyre.imgix.net/d10.jpg?w=1000"
+          />
+        </picture>
+        <figcaption class="photo-caption">Sony α7 III</figcaption>
+      </figure>
+    </div>
+
+    <div id="analog" class="tab-content page-container">
       <figure class="photo-container">
         <picture>
           <source
@@ -135,7 +390,9 @@
             src="https://taylorlapeyre.imgix.net/2.jpg?w=1000"
           />
         </picture>
-        <figcaption class="photo-caption">35mm Kodak Colorplus 200</figcaption>
+        <figcaption class="photo-caption">
+          35mm Kodak Colorplus 200
+        </figcaption>
       </figure>
       <figure class="full-bleed photo-container">
         <picture>
@@ -157,7 +414,9 @@
             src="https://taylorlapeyre.imgix.net/3.jpg"
           />
         </picture>
-        <figcaption class="photo-caption">35mm Kodak Colorplus 200</figcaption>
+        <figcaption class="photo-caption">
+          35mm Kodak Colorplus 200
+        </figcaption>
       </figure>
       <figure class="vertical photo-container">
         <picture>
@@ -223,7 +482,9 @@
             src="https://taylorlapeyre.imgix.net/6.jpg?w=1000"
           />
         </picture>
-        <figcaption class="photo-caption">35mm Kodak Colorplus 200</figcaption>
+        <figcaption class="photo-caption">
+          35mm Kodak Colorplus 200
+        </figcaption>
       </figure>
       <figure class="photo-container">
         <picture>
@@ -355,7 +616,9 @@
             src="https://taylorlapeyre.imgix.net/12.jpg?w=1000"
           />
         </picture>
-        <figcaption class="photo-caption">35mm Kodak Colorplus 200</figcaption>
+        <figcaption class="photo-caption">
+          35mm Kodak Colorplus 200
+        </figcaption>
       </figure>
       <figure class="photo-container">
         <picture>
@@ -377,7 +640,9 @@
             src="https://taylorlapeyre.imgix.net/13.jpg?w=1000"
           />
         </picture>
-        <figcaption class="photo-caption">35mm Kodak Colorplus 200</figcaption>
+        <figcaption class="photo-caption">
+          35mm Kodak Colorplus 200
+        </figcaption>
       </figure>
       <figure class="photo-container">
         <picture>
@@ -399,7 +664,9 @@
             src="https://taylorlapeyre.imgix.net/14.jpg?w=1000"
           />
         </picture>
-        <figcaption class="photo-caption">35mm Kodak Colorplus 200</figcaption>
+        <figcaption class="photo-caption">
+          35mm Kodak Colorplus 200
+        </figcaption>
       </figure>
       <figure class="photo-container">
         <picture>
@@ -421,7 +688,9 @@
             src="https://taylorlapeyre.imgix.net/15.jpg?w=1000"
           />
         </picture>
-        <figcaption class="photo-caption">35mm Kodak Colorplus 200</figcaption>
+        <figcaption class="photo-caption">
+          35mm Kodak Colorplus 200
+        </figcaption>
       </figure>
       <figure class="full-bleed photo-container">
         <picture>
