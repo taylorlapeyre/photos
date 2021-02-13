@@ -81,7 +81,7 @@ def generate_image_tag(image)
 
 end
 
-index = File.read('index.html')
+index = File.read('index.template.html')
 
 generated_index =
   index

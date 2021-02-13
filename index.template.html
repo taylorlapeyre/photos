@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Photos by Taylor Lapeyre</title>
+    <script
+      async
+      defer
+      data-domain="taylorlapeyre.com"
+      src="https://plausible.io/js/plausible.js"
+    ></script>
+    <meta charset="utf-8" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: -apple-system, sans-serif;
+        background-color: #222;
+      }
+
+      .page-header {
+        margin: 50px 0;
+      }
+
+      .page-title {
+        margin: 0;
+        font-size: 10px;
+        font-weight: 400;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      .page-blurb {
+        font-size: 12px;
+        line-height: 1.4;
+        color: white;
+      }
+
+      .page-container {
+        display: grid;
+        grid-template-columns: 1fr min(845px, 90%) 1fr;
+      }
+
+      .page-container > * {
+        grid-column: 2;
+      }
+
+      .photo-container {
+        width: 100%;
+        padding-bottom: 10px;
+        border-radius: 4px;
+        margin: 0;
+        margin-bottom: 150px;
+        text-align: center;
+        justify-self: center;
+      }
+
+      .vertical.photo-container {
+        max-width: 60%;
+      }
+
+      .full-bleed.photo-container {
+        width: 100%;
+        grid-column: 1 / 4;
+        padding-left: 8px;
+        padding-right: 8px;
+      }
+
+      .photo {
+        width: 100%;
+      }
+
+      .photo-caption {
+        font-size: 8px;
+        text-align: right;
+        padding-top: 8px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: white;
+      }
+
+      .controls {
+        margin-top: 50px;
+        font-size: 12px;
+        line-height: 1.4;
+        color: white;
+      }
+
+      .controls a {
+        font-size: 12px;
+        line-height: 1.4;
+        color: white;
+      }
+
+      .tab-content {
+        display: none;
+      }
+
+      .tab-content:target {
+        display: grid;
+      }
+
+      .tab-content:not(:target) ~ .tab-content {
+        display: grid;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page-container">
+      <header class="page-header">
+        <p class="page-blurb">
+          I'm Nobody! Who are you?<br />
+          Are you – Nobody – too?<br />
+          Then there's a pair of us!<br />
+          Don't tell! they'd advertise – you know!
+          <br /><br />
+          How dreary – to be – Somebody!<br />
+          How public – like a Frog –<br />
+          To tell one’s name – the livelong June –<br />
+          To an admiring Bog!
+        </p>
+        <h1 class="page-title">— Emily Dickinson</h1>
+        <div class="controls">
+          <a href="#analog">Analog</a> /
+          <a href="#digital">Digital</a>
+        </div>
+      </header>
+    </div>
+    <section id="digital" class="tab-content page-container"></section>
+    <section id="analog" class="tab-content page-container"></section>
+  </body>
+</html>
