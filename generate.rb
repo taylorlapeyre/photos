@@ -7,6 +7,7 @@ ANALOG = [
   { url: "https://taylorlapeyre.imgix.net/19.jpg", caption: '35mm Lomography 800', framing: 'landscape', title: 'Illuminated Map' },
   { url: "https://taylorlapeyre.imgix.net/7.jpg", caption: '35mm Kodak Ektar 100', framing: 'landscape', title: 'Nob Hill' },
   { url: "https://taylorlapeyre.imgix.net/27.jpg", caption: '35mm Kodak Colorplus 200', framing: 'landscape', title: 'Light Blue Angles' },
+  { url: "https://taylorlapeyre.imgix.net/28.jpg", caption: '35mm Kodak Colorplus 200', framing: 'full-bleed', title: 'Grandview Roofs' },
   { url: "https://taylorlapeyre.imgix.net/26.jpg", caption: '35mm Kodak Portra 400', framing: 'landscape', title: 'Peek' },
   { url: "https://taylorlapeyre.imgix.net/21.jpg", caption: '35mm Lomography 800', framing: 'landscape', title: 'DMV' },
   { url: "https://taylorlapeyre.imgix.net/15.jpg", caption: '35mm Kodak Colorplus 200', framing: 'landscape', title: 'Twin Peaks' },
