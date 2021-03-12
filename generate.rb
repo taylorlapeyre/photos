@@ -24,7 +24,7 @@ ANALOG = [
 
 DIGITAL = [
   { url: "https://taylorlapeyre.imgix.net/d3.jpg", caption: 'iPhone 7', framing: 'portrait', title: 'Jessie' },
-  { url: "https://taylorlapeyre.imgix.net/d2.jpg", caption: 'Sony α5100', framing: 'landscape', title: 'After Six' },
+  { url: "https://taylorlapeyre.imgix.net/d2.jpg", caption: 'Sony α5100', framing: 'full-bleed', title: 'After Six' },
   { url: "https://taylorlapeyre.imgix.net/d1.jpg", caption: 'iPhone 7', framing: 'portrait', title: 'Zion' },
   { url: "https://taylorlapeyre.imgix.net/d4.jpg", caption: 'Sony α5100', framing: 'portrait', title: 'SW Corner, Joshua Tree' },
   { url: "https://taylorlapeyre.imgix.net/d5.jpg", caption: 'Sony α7III', framing: 'full-bleed', title: 'Coot' },
