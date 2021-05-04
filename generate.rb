@@ -21,7 +21,7 @@ ANALOG = [
   { url: "https://taylorlapeyre.imgix.net/23.jpg", caption: '', framing: 'landscape', title: 'Jessie & Hiro' },
   { url: "https://taylorlapeyre.imgix.net/17.jpg", caption: '', framing: 'landscape', title: 'Cheese' },
   { url: "https://taylorlapeyre.imgix.net/8.jpg", caption: '', framing: 'landscape', title: 'Fishing at Lake Merced' },
-  { url: "https://taylorlapeyre.imgix.net/28.jpg", caption: '', framing: 'full-bleed', title: 'Grandview Roofs' },
+  { url: "https://taylorlapeyre.imgix.net/33.jpg", caption: '', framing: 'full-bleed', title: 'Grandview Park' },
   { url: "https://taylorlapeyre.imgix.net/27.jpg", caption: '', framing: 'landscape', title: 'Light Blue House' }
 ]
 
