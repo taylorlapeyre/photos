@@ -13,6 +13,7 @@ ANALOG = [
   { url: "https://taylorlapeyre.imgix.net/2.jpg", caption: '', framing: 'portrait', title: 'The Painted Ladies of Alamo Square' },
   { url: "https://taylorlapeyre.imgix.net/29.jpg", caption: '', framing: 'landscape', title: "Sunroom near Alamo Square" },
   { url: "https://taylorlapeyre.imgix.net/18.jpg", caption: '', framing: 'portrait', title: 'Victorian near Buena Vista Park, SF' },
+  { url: "https://taylorlapeyre.imgix.net/35.jpg", caption: '', framing: 'portrait', title: 'Sam' },
   { url: "https://taylorlapeyre.imgix.net/19.jpg", caption: '', framing: 'landscape', title: 'Illuminated MUNI street map at dusk' },
   { url: "https://taylorlapeyre.imgix.net/7.jpg", caption: '', framing: 'landscape', title: 'Nob Hill' },
   { url: "https://taylorlapeyre.imgix.net/12.jpg", caption: '', framing: 'landscape', title: 'Windows, Steiner St.' },
@@ -20,6 +21,7 @@ ANALOG = [
   { url: "https://taylorlapeyre.imgix.net/26.jpg", caption: '', framing: 'landscape', title: 'Peek' },
   { url: "https://taylorlapeyre.imgix.net/23.jpg", caption: '', framing: 'landscape', title: 'Jessie & Hiro' },
   { url: "https://taylorlapeyre.imgix.net/17.jpg", caption: '', framing: 'landscape', title: 'Cheese' },
+  { url: "https://taylorlapeyre.imgix.net/34.jpg", caption: '', framing: 'landscape', title: 'Living Room Table' },
   { url: "https://taylorlapeyre.imgix.net/8.jpg", caption: '', framing: 'landscape', title: 'Fishing at Lake Merced' },
   { url: "https://taylorlapeyre.imgix.net/33.jpg", caption: '', framing: 'full-bleed', title: 'Grandview Park' },
   { url: "https://taylorlapeyre.imgix.net/27.jpg", caption: '', framing: 'landscape', title: 'Light Blue House' }
