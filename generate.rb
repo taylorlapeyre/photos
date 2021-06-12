@@ -2,6 +2,7 @@ ANALOG = [
   { url: "https://taylorlapeyre.imgix.net/22.jpg", caption: '', framing: 'landscape', title: 'Plum blossoms in early spring, Castro SF' },
   { url: "https://taylorlapeyre.imgix.net/35.jpg", caption: '', framing: 'portrait', title: 'Sam' },
   { url: "https://taylorlapeyre.imgix.net/33.jpg", caption: '', framing: 'full-bleed', title: 'Grandview Park' },
+  { url: "https://taylorlapeyre.imgix.net/36.jpg", caption: '', framing: 'portrait', title: 'Dean Preston' },
   { url: "https://taylorlapeyre.imgix.net/31.jpg", caption: '', framing: 'landscape', title: 'Greenhouse in the Fort Mason Community Garden, SF' },
   { url: "https://taylorlapeyre.imgix.net/11.jpg", caption: '', framing: 'landscape', title: 'Irrigation in fort mason greenhouse' },
   { url: "https://taylorlapeyre.imgix.net/26.jpg", caption: '', framing: 'landscape', title: 'Peek' },
