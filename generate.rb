@@ -27,21 +27,19 @@ ANALOG = [
 
 DIGITAL = [
   { url: "https://taylorlapeyre.imgix.net/d3.jpg", caption: '', framing: 'portrait', title: 'Jessie' },
-  { url: "https://taylorlapeyre.imgix.net/d2.jpg", caption: '', framing: 'full-bleed', title: 'After Six' },
   { url: "https://taylorlapeyre.imgix.net/d1.jpg", caption: '', framing: 'portrait', title: 'Zion' },
+  { url: "https://taylorlapeyre.imgix.net/d2.jpg", caption: '', framing: 'full-bleed', title: 'After Six' },
   { url: "https://taylorlapeyre.imgix.net/d4.jpg", caption: '', framing: 'portrait', title: 'SW Corner, Joshua Tree' },
-  { url: "https://taylorlapeyre.imgix.net/d6.jpg", caption: '', framing: 'landscape', title: 'Hiro' },
   { url: "https://taylorlapeyre.imgix.net/d7.jpg", caption: '', framing: 'portrait', title: 'El Cap' },
-  { url: "https://taylorlapeyre.imgix.net/d15.jpg", caption: '', framing: 'portrait', title: 'Jessie Shadow' },
-  { url: "https://taylorlapeyre.imgix.net/d5.jpg", caption: '', framing: 'full-bleed', title: 'Coot' },
-  { url: "https://taylorlapeyre.imgix.net/d8.jpg", caption: '', framing: 'landscape', title: 'California Scrub-Jay' },
-  { url: "https://taylorlapeyre.imgix.net/d9.jpg", caption: '', framing: 'landscape', title: 'Rick' },
   { url: "https://taylorlapeyre.imgix.net/d14.jpg", caption: '', framing: 'landscape', title: 'Cathedral Peak, Tuolumne' },
-  { url: "https://taylorlapeyre.imgix.net/d16.jpg", caption: '', framing: 'landscape', title: 'Hawk' },
+  { url: "https://taylorlapeyre.imgix.net/d16.jpg", caption: '', framing: 'full-bleed', title: 'Hawk' },
   { url: "https://taylorlapeyre.imgix.net/d10.jpg", caption: '', framing: 'portrait', title: 'Red-Tailed Hawk' },
+  { url: "https://taylorlapeyre.imgix.net/d8.jpg", caption: '', framing: 'landscape', title: 'California Scrub-Jay' },
+  { url: "https://taylorlapeyre.imgix.net/d6.jpg", caption: '', framing: 'landscape', title: 'Hiro' },
+  { url: "https://taylorlapeyre.imgix.net/d5.jpg", caption: '', framing: 'landscape', title: 'Coot' },
   { url: "https://taylorlapeyre.imgix.net/d11.jpg", caption: '', framing: 'full-bleed', title: 'Ocean Beach' },
   { url: "https://taylorlapeyre.imgix.net/d12.jpg", caption: '', framing: 'landscape', title: 'Alamo Square in Autumn' },
-  { url: "https://taylorlapeyre.imgix.net/d13.jpg", caption: '', framing: 'portrait', title: "Plumber's Crack, Red Rock" }
+  { url: "https://taylorlapeyre.imgix.net/d15.jpg", caption: '', framing: 'portrait', title: 'Jessie Shadow' },
 ]
 
 def generate_image_tag(image)
