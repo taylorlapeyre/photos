@@ -6,23 +6,14 @@ ANALOG = [
   { url: "https://taylorlapeyre.imgix.net/41.jpg", caption: '', framing: 'landscape', title: 'Jessie & Hiro' },
   { url: "https://taylorlapeyre.imgix.net/2.jpg", caption: '', framing: 'portrait', title: 'The Painted Ladies of Alamo Square' },
   { url: "https://taylorlapeyre.imgix.net/20.jpg", caption: '', framing: 'landscape', title: 'Corona Heights' },
-  { url: "https://taylorlapeyre.imgix.net/31.jpg", caption: '', framing: 'landscape', title: 'Greenhouse in the Fort Mason Community Garden, SF' },
   { url: "https://taylorlapeyre.imgix.net/26.jpg", caption: '', framing: 'landscape', title: 'Peek' },
   { url: "https://taylorlapeyre.imgix.net/16.jpg", caption: '', framing: 'landscape', title: 'Sunset Over Cole Valley, Twin Peaks in foreground' },
-  { url: "https://taylorlapeyre.imgix.net/39.jpg", caption: '', framing: 'landscape', title: 'Fort Mason' },
-  { url: "https://taylorlapeyre.imgix.net/40.jpg", caption: '', framing: 'full-bleed', title: 'GGB' },
   { url: "https://taylorlapeyre.imgix.net/21.jpg", caption: '', framing: 'landscape', title: 'DMV' },
   { url: "https://taylorlapeyre.imgix.net/7.jpg", caption: '', framing: 'landscape', title: 'Nob Hill' },
   { url: "https://taylorlapeyre.imgix.net/12.jpg", caption: '', framing: 'landscape', title: 'Windows, Steiner St.' },
-  { url: "https://taylorlapeyre.imgix.net/32.jpg", caption: '', framing: 'landscape', title: 'Reflection' },
   { url: "https://taylorlapeyre.imgix.net/37.jpg", caption: '', framing: 'landscape', title: 'Jessie in bed' },
-  { url: "https://taylorlapeyre.imgix.net/25.jpg", caption: '', framing: 'landscape', title: 'The ecology center at Heron’s Head Park, SF' },
-  { url: "https://taylorlapeyre.imgix.net/27.jpg", caption: '', framing: 'landscape', title: 'Light Blue House' },
   { url: "https://taylorlapeyre.imgix.net/38.jpg", caption: '', framing: 'portrait', title: "Fillmore rainbow apartments" },
-  { url: "https://taylorlapeyre.imgix.net/23.jpg", caption: '', framing: 'landscape', title: 'Jessie & Hiro' },
-  { url: "https://taylorlapeyre.imgix.net/17.jpg", caption: '', framing: 'landscape', title: 'Cheese' },
-  { url: "https://taylorlapeyre.imgix.net/24.jpg", caption: '', framing: 'landscape', title: 'Valentines day tuplips on table' },
-  { url: "https://taylorlapeyre.imgix.net/8.jpg", caption: '', framing: 'landscape', title: 'Fishing at Lake Merced' }
+  { url: "https://taylorlapeyre.imgix.net/17.jpg", caption: '', framing: 'landscape', title: 'Cheese' }
 ]
 
 DIGITAL = [
