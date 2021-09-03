@@ -3,7 +3,7 @@ ANALOG = [
   { url: "https://taylorlapeyre.imgix.net/36.jpg", caption: '', framing: 'portrait', title: 'Alamo Square pastels' },
   { url: "https://taylorlapeyre.imgix.net/34.jpg", caption: '', framing: 'landscape', title: 'Living Room Table' },
   { url: "https://taylorlapeyre.imgix.net/29.jpg", caption: '', framing: 'landscape', title: "Sunroom near Alamo Square" },
-  { url: "https://taylorlapeyre.imgix.net/41.jpg", caption: '', framing: 'full-bleed', title: 'Jessie & Hiro' },
+  { url: "https://taylorlapeyre.imgix.net/41.jpg", caption: '', framing: 'landscape', title: 'Jessie & Hiro' },
   { url: "https://taylorlapeyre.imgix.net/2.jpg", caption: '', framing: 'portrait', title: 'The Painted Ladies of Alamo Square' },
   { url: "https://taylorlapeyre.imgix.net/20.jpg", caption: '', framing: 'landscape', title: 'Corona Heights' },
   { url: "https://taylorlapeyre.imgix.net/31.jpg", caption: '', framing: 'landscape', title: 'Greenhouse in the Fort Mason Community Garden, SF' },
