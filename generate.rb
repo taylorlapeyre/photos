@@ -13,7 +13,7 @@ ANALOG = [
   { url: "https://taylorlapeyre.imgix.net/12.jpg", caption: '', framing: 'landscape', title: 'Windows, Steiner St.' },
   { url: "https://taylorlapeyre.imgix.net/26.jpg", caption: '', framing: 'landscape', title: 'Peek' },
   { url: "https://taylorlapeyre.imgix.net/37.jpg", caption: '', framing: 'landscape', title: 'Jessie in bed' },
-  { url: "https://taylorlapeyre.imgix.net/36.jpg", caption: '', framing: 'portrait', title: 'Alamo Square pastels' }
+  { url: "https://taylorlapeyre.imgix.net/2.jpg", caption: '', framing: 'portrait', title: 'Alamo Square pastels' }
 ]
 
 DIGITAL = [
