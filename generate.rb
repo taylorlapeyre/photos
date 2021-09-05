@@ -4,7 +4,6 @@ ANALOG = [
   { url: "https://taylorlapeyre.imgix.net/22.jpg", caption: '', framing: 'landscape', title: 'Plum blossoms' },
   { url: "https://taylorlapeyre.imgix.net/34.jpg", caption: '', framing: 'landscape', title: 'Living Room Table' },
   { url: "https://taylorlapeyre.imgix.net/29.jpg", caption: '', framing: 'landscape', title: "Sunroom near Alamo Square" },
-  { url: "https://taylorlapeyre.imgix.net/36.jpg", caption: '', framing: 'portrait', title: 'Alamo Square pastels' },
   { url: "https://taylorlapeyre.imgix.net/2.jpg", caption: '', framing: 'portrait', title: 'The Painted Ladies of Alamo Square' },
   { url: "https://taylorlapeyre.imgix.net/20.jpg", caption: '', framing: 'landscape', title: 'Corona Heights' },
   { url: "https://taylorlapeyre.imgix.net/26.jpg", caption: '', framing: 'landscape', title: 'Peek' },
@@ -14,8 +13,7 @@ ANALOG = [
   { url: "https://taylorlapeyre.imgix.net/7.jpg", caption: '', framing: 'landscape', title: 'Nob Hill' },
   { url: "https://taylorlapeyre.imgix.net/12.jpg", caption: '', framing: 'landscape', title: 'Windows, Steiner St.' },
   { url: "https://taylorlapeyre.imgix.net/37.jpg", caption: '', framing: 'landscape', title: 'Jessie in bed' },
-  { url: "https://taylorlapeyre.imgix.net/38.jpg", caption: '', framing: 'portrait', title: "Fillmore rainbow apartments" },
-  { url: "https://taylorlapeyre.imgix.net/17.jpg", caption: '', framing: 'landscape', title: 'Cheese' }
+  { url: "https://taylorlapeyre.imgix.net/36.jpg", caption: '', framing: 'portrait', title: 'Alamo Square pastels' }
 ]
 
 DIGITAL = [
