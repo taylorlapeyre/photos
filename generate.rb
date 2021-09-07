@@ -17,6 +17,7 @@ ANALOG = [
 ]
 
 DIGITAL = [
+  { url: "https://taylorlapeyre.imgix.net/d17.jpg", caption: '', framing: 'landscape', title: 'Reader at Corona Heights' },
   { url: "https://taylorlapeyre.imgix.net/d3.jpg", caption: '', framing: 'portrait', title: 'Jessie' },
   { url: "https://taylorlapeyre.imgix.net/d1.jpg", caption: '', framing: 'portrait', title: 'Zion' },
   { url: "https://taylorlapeyre.imgix.net/d2.jpg", caption: '', framing: 'full-bleed', title: 'After Six' },
