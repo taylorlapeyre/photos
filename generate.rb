@@ -1,4 +1,5 @@
 ANALOG = [
+  { url: "https://taylorlapeyre.imgix.net/45.jpg", caption: '', framing: 'landscape', title: 'Pink flowers' },
   { url: "https://taylorlapeyre.imgix.net/42.jpg", caption: '', framing: 'portrait', title: 'Prayer flags' },
   { url: "https://taylorlapeyre.imgix.net/43.jpg", caption: '', framing: 'landscape', title: 'Yellow Bernal house' },
   { url: "https://taylorlapeyre.imgix.net/44.jpg", caption: '', framing: 'portrait', title: 'Bernal garden path' },
@@ -17,15 +18,16 @@ ANALOG = [
 ]
 
 DIGITAL = [
-  { url: "https://taylorlapeyre.imgix.net/d18.jpg", caption: '', framing: 'landscape', title: 'Pacifc-slope Flycatcher' },
-  { url: "https://taylorlapeyre.imgix.net/d17.jpg", caption: '', framing: 'landscape', title: 'Reader at Corona Heights' },
+  { url: "https://taylorlapeyre.imgix.net/d19.jpg", caption: '', framing: 'portrait', title: 'Reader at Alamo' },
   { url: "https://taylorlapeyre.imgix.net/d3.jpg", caption: '', framing: 'portrait', title: 'Jessie' },
   { url: "https://taylorlapeyre.imgix.net/d1.jpg", caption: '', framing: 'portrait', title: 'Zion' },
   { url: "https://taylorlapeyre.imgix.net/d2.jpg", caption: '', framing: 'full-bleed', title: 'After Six' },
   { url: "https://taylorlapeyre.imgix.net/d4.jpg", caption: '', framing: 'portrait', title: 'SW Corner, Joshua Tree' },
   { url: "https://taylorlapeyre.imgix.net/d7.jpg", caption: '', framing: 'portrait', title: 'El Cap' },
   { url: "https://taylorlapeyre.imgix.net/d14.jpg", caption: '', framing: 'landscape', title: 'Cathedral Peak, Tuolumne' },
+  { url: "https://taylorlapeyre.imgix.net/d17.jpg", caption: '', framing: 'landscape', title: 'Reader at Corona Heights' },
   { url: "https://taylorlapeyre.imgix.net/d16.jpg", caption: '', framing: 'full-bleed', title: 'Hawk' },
+  { url: "https://taylorlapeyre.imgix.net/d18.jpg", caption: '', framing: 'landscape', title: 'Pacifc-slope Flycatcher' },
   { url: "https://taylorlapeyre.imgix.net/d10.jpg", caption: '', framing: 'portrait', title: 'Red-Tailed Hawk' },
   { url: "https://taylorlapeyre.imgix.net/d8.jpg", caption: '', framing: 'landscape', title: 'California Scrub-Jay' },
   { url: "https://taylorlapeyre.imgix.net/d6.jpg", caption: '', framing: 'landscape', title: 'Hiro' },
