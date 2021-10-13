@@ -1,5 +1,6 @@
 ANALOG = [
   { url: "https://taylorlapeyre.imgix.net/46.jpg", caption: '', framing: 'landscape', title: 'Bus stop in Mendocino' },
+  { url: "https://taylorlapeyre.imgix.net/45.jpg", caption: '', framing: 'landscape', title: 'Pink flowers' },
   { url: "https://taylorlapeyre.imgix.net/42.jpg", caption: '', framing: 'portrait', title: 'Prayer flags' },
   { url: "https://taylorlapeyre.imgix.net/43.jpg", caption: '', framing: 'landscape', title: 'Yellow Bernal house' },
   { url: "https://taylorlapeyre.imgix.net/44.jpg", caption: '', framing: 'portrait', title: 'Bernal garden path' },
