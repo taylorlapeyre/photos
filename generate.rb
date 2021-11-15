@@ -1,21 +1,18 @@
 ANALOG = [
   { url: "https://taylorlapeyre.imgix.net/46.jpg", caption: '', framing: 'landscape', title: 'Bus stop in Mendocino' },
-  { url: "https://taylorlapeyre.imgix.net/45.jpg", caption: '', framing: 'landscape', title: 'Pink flowers' },
   { url: "https://taylorlapeyre.imgix.net/42.jpg", caption: '', framing: 'portrait', title: 'Prayer flags' },
+  { url: "https://taylorlapeyre.imgix.net/20.jpg", caption: '', framing: 'landscape', title: 'Corona Heights' },
   { url: "https://taylorlapeyre.imgix.net/43.jpg", caption: '', framing: 'landscape', title: 'Yellow Bernal house' },
-  { url: "https://taylorlapeyre.imgix.net/44.jpg", caption: '', framing: 'portrait', title: 'Bernal garden path' },
   { url: "https://taylorlapeyre.imgix.net/34.jpg", caption: '', framing: 'landscape', title: 'Living Room Table' },
   { url: "https://taylorlapeyre.imgix.net/29.jpg", caption: '', framing: 'landscape', title: "Sunroom near Alamo Square" },
-  { url: "https://taylorlapeyre.imgix.net/36.jpg", caption: '', framing: 'portrait', title: 'Alamo Square pastels' },
-  { url: "https://taylorlapeyre.imgix.net/20.jpg", caption: '', framing: 'landscape', title: 'Corona Heights' },
   { url: "https://taylorlapeyre.imgix.net/22.jpg", caption: '', framing: 'landscape', title: 'Plum blossoms' },
   { url: "https://taylorlapeyre.imgix.net/16.jpg", caption: '', framing: 'landscape', title: 'Sunset Over Cole Valley, Twin Peaks in foreground' },
   { url: "https://taylorlapeyre.imgix.net/21.jpg", caption: '', framing: 'landscape', title: 'DMV' },
   { url: "https://taylorlapeyre.imgix.net/7.jpg", caption: '', framing: 'landscape', title: 'Nob Hill' },
   { url: "https://taylorlapeyre.imgix.net/12.jpg", caption: '', framing: 'landscape', title: 'Windows, Steiner St.' },
   { url: "https://taylorlapeyre.imgix.net/26.jpg", caption: '', framing: 'landscape', title: 'Peek' },
-  { url: "https://taylorlapeyre.imgix.net/37.jpg", caption: '', framing: 'landscape', title: 'Jessie in bed' },
-  { url: "https://taylorlapeyre.imgix.net/2.jpg", caption: '', framing: 'portrait', title: 'Alamo Square pastels' }
+  { url: "https://taylorlapeyre.imgix.net/36.jpg", caption: '', framing: 'portrait', title: 'Alamo Square pastels' },
+  { url: "https://taylorlapeyre.imgix.net/45.jpg", caption: '', framing: 'landscape', title: 'Pink flowers' },
 ]
 
 DIGITAL = [
@@ -34,7 +31,6 @@ DIGITAL = [
   { url: "https://taylorlapeyre.imgix.net/d6.jpg", caption: '', framing: 'landscape', title: 'Hiro' },
   { url: "https://taylorlapeyre.imgix.net/d5.jpg", caption: '', framing: 'landscape', title: 'Coot' },
   { url: "https://taylorlapeyre.imgix.net/d11.jpg", caption: '', framing: 'full-bleed', title: 'Ocean Beach' },
-  { url: "https://taylorlapeyre.imgix.net/d12.jpg", caption: '', framing: 'landscape', title: 'Alamo Square in Autumn' },
   { url: "https://taylorlapeyre.imgix.net/d15.jpg", caption: '', framing: 'portrait', title: 'Jessie Shadow' },
 ]
 
