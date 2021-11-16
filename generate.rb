@@ -2,6 +2,7 @@ ANALOG = [
   { url: "https://taylorlapeyre.imgix.net/46.jpg", caption: '', framing: 'landscape', title: 'Bus stop in Mendocino' },
   { url: "https://taylorlapeyre.imgix.net/42.jpg", caption: '', framing: 'portrait', title: 'Prayer flags' },
   { url: "https://taylorlapeyre.imgix.net/20.jpg", caption: '', framing: 'landscape', title: 'Corona Heights' },
+  { url: "https://taylorlapeyre.imgix.net/47.jpg", caption: '', framing: 'landscape', title: 'Mendocino Spikeball' },
   { url: "https://taylorlapeyre.imgix.net/43.jpg", caption: '', framing: 'landscape', title: 'Yellow Bernal house' },
   { url: "https://taylorlapeyre.imgix.net/41.jpg", caption: '', framing: 'landscape', title: 'Hio & Jessie Portrait' },
   { url: "https://taylorlapeyre.imgix.net/34.jpg", caption: '', framing: 'landscape', title: 'Living Room Table' },
