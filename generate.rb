@@ -37,6 +37,14 @@ DIGITAL = [
   { url: "https://taylorlapeyre.imgix.net/d15.jpg", caption: '', framing: 'portrait', title: 'Jessie Shadow' },
 ]
 
+BLACK_AND_WHITE = [
+  { url: "https://taylorlapeyre.imgix.net/bw1.jpg", caption: '', framing: 'landscape', title: 'Laundry' },
+  { url: "https://taylorlapeyre.imgix.net/bw2.jpg", caption: '', framing: 'landscape', title: 'Steiner building' },
+  { url: "https://taylorlapeyre.imgix.net/bw3.jpg", caption: '', framing: 'landscape', title: 'Jouer et Nuit' },
+  { url: "https://taylorlapeyre.imgix.net/bw4.jpg", caption: '', framing: 'landscape', title: 'Alamo Cypress' },
+  { url: "https://taylorlapeyre.imgix.net/bw5.jpg", caption: '', framing: 'landscape', title: 'Alamo Sillouette' },
+]
+
 def generate_image_tag(image)
   widths = {
     'landscape' => [1400, 700],
@@ -85,7 +93,7 @@ generated_index =
   index
   .gsub(/<section id="analog" class="tab-content page-container">(.?|\n)*?<\/section>/, %Q{
     <section id="analog" class="tab-content page-container">
-      #{ANALOG.map { |image| generate_image_tag(image) }.join('')}
+      #{(ANALOG + BLACK_AND_WHITE).map { |image| generate_image_tag(image) }.join('')}
     </section>
   })
   .gsub(/<section id="digital" class="tab-content page-container">(.?|\n)*?<\/section>/, %Q{
