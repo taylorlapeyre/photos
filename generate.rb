@@ -1,6 +1,9 @@
 ANALOG = [
+  { url: "https://taylorlapeyre.imgix.net/48.jpg", caption: '', framing: 'portrait', title: 'SFFD' },
   { url: "https://taylorlapeyre.imgix.net/46.jpg", caption: '', framing: 'landscape', title: 'Bus stop in Mendocino' },
   { url: "https://taylorlapeyre.imgix.net/42.jpg", caption: '', framing: 'portrait', title: 'Prayer flags' },
+  { url: "https://taylorlapeyre.imgix.net/49.jpg", caption: '', framing: 'portrait', title: 'KD Court' },
+  { url: "https://taylorlapeyre.imgix.net/50.jpg", caption: '', framing: 'portrait', title: 'Ferris Wheel' },
   { url: "https://taylorlapeyre.imgix.net/20.jpg", caption: '', framing: 'landscape', title: 'Corona Heights' },
   { url: "https://taylorlapeyre.imgix.net/47.jpg", caption: '', framing: 'landscape', title: 'Mendocino Spikeball' },
   { url: "https://taylorlapeyre.imgix.net/43.jpg", caption: '', framing: 'landscape', title: 'Yellow Bernal house' },
