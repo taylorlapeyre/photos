@@ -68,9 +68,9 @@
         width: 100%;
         border-radius: 4px;
         box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px,
-                    rgba(0, 0, 0, 0) 0px 0px 0px 0px,
-                    rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
-                    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+          rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+          rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+          rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
       }
 
       .photo-caption {
@@ -85,23 +85,6 @@
         margin-top: 50px;
         font-size: 12px;
         line-height: 1.4;
-      }
-
-      .controls a {
-        font-size: 12px;
-        line-height: 1.4;
-      }
-
-      .tab-content {
-        display: none;
-      }
-
-      .tab-content:target {
-        display: grid;
-      }
-
-      .tab-content:not(:target) ~ .tab-content {
-        display: grid;
       }
     </style>
   </head>
@@ -120,81 +103,11 @@
           To an admiring Bog!
         </p>
         <h1 class="page-title">— Emily Dickinson</h1>
-        <div class="controls">
-          <a href="#analog">Analog</a> /
-          <a href="#digital">Digital</a>
-        </div>
       </header>
     </div>
     
-    <section id="digital" class="tab-content page-container">
+    <section id="portfolio" class="tab-content page-container">
       
-    <figure class="vertical photo-container">
-      <picture>
-        <source
-          media="(min-width: 992px)"
-          srcset="https://taylorlapeyre.imgix.net/d19.jpg?w=1000"
-        />
-        <source
-          media="(max-width: 992px)"
-          srcset="https://taylorlapeyre.imgix.net/d19.jpg?w=600"
-        />
-        <img
-          alt="Reader at Alamo"
-          class="photo"
-          loading="lazy"
-          src="https://taylorlapeyre.imgix.net/d19.jpg"
-        />
-      </picture>
-      <figcaption class="photo-caption">
-        
-      </figcaption>
-    </figure>
-  
-    <figure class="vertical photo-container">
-      <picture>
-        <source
-          media="(min-width: 992px)"
-          srcset="https://taylorlapeyre.imgix.net/d3.jpg?w=1000"
-        />
-        <source
-          media="(max-width: 992px)"
-          srcset="https://taylorlapeyre.imgix.net/d3.jpg?w=600"
-        />
-        <img
-          alt="Jessie"
-          class="photo"
-          loading="lazy"
-          src="https://taylorlapeyre.imgix.net/d3.jpg"
-        />
-      </picture>
-      <figcaption class="photo-caption">
-        
-      </figcaption>
-    </figure>
-  
-    <figure class="vertical photo-container">
-      <picture>
-        <source
-          media="(min-width: 992px)"
-          srcset="https://taylorlapeyre.imgix.net/d1.jpg?w=1000"
-        />
-        <source
-          media="(max-width: 992px)"
-          srcset="https://taylorlapeyre.imgix.net/d1.jpg?w=600"
-        />
-        <img
-          alt="Zion"
-          class="photo"
-          loading="lazy"
-          src="https://taylorlapeyre.imgix.net/d1.jpg"
-        />
-      </picture>
-      <figcaption class="photo-caption">
-        
-      </figcaption>
-    </figure>
-  
     <figure class="full-bleed photo-container">
       <picture>
         <source
@@ -210,50 +123,6 @@
           class="photo"
           loading="lazy"
           src="https://taylorlapeyre.imgix.net/d2.jpg"
-        />
-      </picture>
-      <figcaption class="photo-caption">
-        
-      </figcaption>
-    </figure>
-  
-    <figure class="vertical photo-container">
-      <picture>
-        <source
-          media="(min-width: 992px)"
-          srcset="https://taylorlapeyre.imgix.net/d4.jpg?w=1000"
-        />
-        <source
-          media="(max-width: 992px)"
-          srcset="https://taylorlapeyre.imgix.net/d4.jpg?w=600"
-        />
-        <img
-          alt="SW Corner, Joshua Tree"
-          class="photo"
-          loading="lazy"
-          src="https://taylorlapeyre.imgix.net/d4.jpg"
-        />
-      </picture>
-      <figcaption class="photo-caption">
-        
-      </figcaption>
-    </figure>
-  
-    <figure class="vertical photo-container">
-      <picture>
-        <source
-          media="(min-width: 992px)"
-          srcset="https://taylorlapeyre.imgix.net/d7.jpg?w=1000"
-        />
-        <source
-          media="(max-width: 992px)"
-          srcset="https://taylorlapeyre.imgix.net/d7.jpg?w=600"
-        />
-        <img
-          alt="El Cap"
-          class="photo"
-          loading="lazy"
-          src="https://taylorlapeyre.imgix.net/d7.jpg"
         />
       </picture>
       <figcaption class="photo-caption">
@@ -283,72 +152,6 @@
       </figcaption>
     </figure>
   
-    <figure class=" photo-container">
-      <picture>
-        <source
-          media="(min-width: 992px)"
-          srcset="https://taylorlapeyre.imgix.net/d17.jpg?w=1400"
-        />
-        <source
-          media="(max-width: 992px)"
-          srcset="https://taylorlapeyre.imgix.net/d17.jpg?w=700"
-        />
-        <img
-          alt="Reader at Corona Heights"
-          class="photo"
-          loading="lazy"
-          src="https://taylorlapeyre.imgix.net/d17.jpg"
-        />
-      </picture>
-      <figcaption class="photo-caption">
-        
-      </figcaption>
-    </figure>
-  
-    <figure class="full-bleed photo-container">
-      <picture>
-        <source
-          media="(min-width: 992px)"
-          srcset="https://taylorlapeyre.imgix.net/d16.jpg?w=2000"
-        />
-        <source
-          media="(max-width: 992px)"
-          srcset="https://taylorlapeyre.imgix.net/d16.jpg?w=800"
-        />
-        <img
-          alt="Hawk"
-          class="photo"
-          loading="lazy"
-          src="https://taylorlapeyre.imgix.net/d16.jpg"
-        />
-      </picture>
-      <figcaption class="photo-caption">
-        
-      </figcaption>
-    </figure>
-  
-    <figure class=" photo-container">
-      <picture>
-        <source
-          media="(min-width: 992px)"
-          srcset="https://taylorlapeyre.imgix.net/d18.jpg?w=1400"
-        />
-        <source
-          media="(max-width: 992px)"
-          srcset="https://taylorlapeyre.imgix.net/d18.jpg?w=700"
-        />
-        <img
-          alt="Pacifc-slope Flycatcher"
-          class="photo"
-          loading="lazy"
-          src="https://taylorlapeyre.imgix.net/d18.jpg"
-        />
-      </picture>
-      <figcaption class="photo-caption">
-        
-      </figcaption>
-    </figure>
-  
     <figure class="vertical photo-container">
       <picture>
         <source
@@ -364,143 +167,6 @@
           class="photo"
           loading="lazy"
           src="https://taylorlapeyre.imgix.net/d10.jpg"
-        />
-      </picture>
-      <figcaption class="photo-caption">
-        
-      </figcaption>
-    </figure>
-  
-    <figure class=" photo-container">
-      <picture>
-        <source
-          media="(min-width: 992px)"
-          srcset="https://taylorlapeyre.imgix.net/d8.jpg?w=1400"
-        />
-        <source
-          media="(max-width: 992px)"
-          srcset="https://taylorlapeyre.imgix.net/d8.jpg?w=700"
-        />
-        <img
-          alt="California Scrub-Jay"
-          class="photo"
-          loading="lazy"
-          src="https://taylorlapeyre.imgix.net/d8.jpg"
-        />
-      </picture>
-      <figcaption class="photo-caption">
-        
-      </figcaption>
-    </figure>
-  
-    <figure class=" photo-container">
-      <picture>
-        <source
-          media="(min-width: 992px)"
-          srcset="https://taylorlapeyre.imgix.net/d6.jpg?w=1400"
-        />
-        <source
-          media="(max-width: 992px)"
-          srcset="https://taylorlapeyre.imgix.net/d6.jpg?w=700"
-        />
-        <img
-          alt="Hiro"
-          class="photo"
-          loading="lazy"
-          src="https://taylorlapeyre.imgix.net/d6.jpg"
-        />
-      </picture>
-      <figcaption class="photo-caption">
-        
-      </figcaption>
-    </figure>
-  
-    <figure class=" photo-container">
-      <picture>
-        <source
-          media="(min-width: 992px)"
-          srcset="https://taylorlapeyre.imgix.net/d5.jpg?w=1400"
-        />
-        <source
-          media="(max-width: 992px)"
-          srcset="https://taylorlapeyre.imgix.net/d5.jpg?w=700"
-        />
-        <img
-          alt="Coot"
-          class="photo"
-          loading="lazy"
-          src="https://taylorlapeyre.imgix.net/d5.jpg"
-        />
-      </picture>
-      <figcaption class="photo-caption">
-        
-      </figcaption>
-    </figure>
-  
-    <figure class="full-bleed photo-container">
-      <picture>
-        <source
-          media="(min-width: 992px)"
-          srcset="https://taylorlapeyre.imgix.net/d11.jpg?w=2000"
-        />
-        <source
-          media="(max-width: 992px)"
-          srcset="https://taylorlapeyre.imgix.net/d11.jpg?w=800"
-        />
-        <img
-          alt="Ocean Beach"
-          class="photo"
-          loading="lazy"
-          src="https://taylorlapeyre.imgix.net/d11.jpg"
-        />
-      </picture>
-      <figcaption class="photo-caption">
-        
-      </figcaption>
-    </figure>
-  
-    <figure class="vertical photo-container">
-      <picture>
-        <source
-          media="(min-width: 992px)"
-          srcset="https://taylorlapeyre.imgix.net/d15.jpg?w=1000"
-        />
-        <source
-          media="(max-width: 992px)"
-          srcset="https://taylorlapeyre.imgix.net/d15.jpg?w=600"
-        />
-        <img
-          alt="Jessie Shadow"
-          class="photo"
-          loading="lazy"
-          src="https://taylorlapeyre.imgix.net/d15.jpg"
-        />
-      </picture>
-      <figcaption class="photo-caption">
-        
-      </figcaption>
-    </figure>
-  
-    </section>
-  
-    
-    <section id="analog" class="tab-content page-container">
-      
-    <figure class="vertical photo-container">
-      <picture>
-        <source
-          media="(min-width: 992px)"
-          srcset="https://taylorlapeyre.imgix.net/48.jpg?w=1000"
-        />
-        <source
-          media="(max-width: 992px)"
-          srcset="https://taylorlapeyre.imgix.net/48.jpg?w=600"
-        />
-        <img
-          alt="SFFD"
-          class="photo"
-          loading="lazy"
-          src="https://taylorlapeyre.imgix.net/48.jpg"
         />
       </picture>
       <figcaption class="photo-caption">
@@ -574,21 +240,43 @@
       </figcaption>
     </figure>
   
+    <figure class="full-bleed photo-container">
+      <picture>
+        <source
+          media="(min-width: 992px)"
+          srcset="https://taylorlapeyre.imgix.net/d16.jpg?w=2000"
+        />
+        <source
+          media="(max-width: 992px)"
+          srcset="https://taylorlapeyre.imgix.net/d16.jpg?w=800"
+        />
+        <img
+          alt="Hawk"
+          class="photo"
+          loading="lazy"
+          src="https://taylorlapeyre.imgix.net/d16.jpg"
+        />
+      </picture>
+      <figcaption class="photo-caption">
+        
+      </figcaption>
+    </figure>
+  
     <figure class="vertical photo-container">
       <picture>
         <source
           media="(min-width: 992px)"
-          srcset="https://taylorlapeyre.imgix.net/50.jpg?w=1000"
+          srcset="https://taylorlapeyre.imgix.net/d7.jpg?w=1000"
         />
         <source
           media="(max-width: 992px)"
-          srcset="https://taylorlapeyre.imgix.net/50.jpg?w=600"
+          srcset="https://taylorlapeyre.imgix.net/d7.jpg?w=600"
         />
         <img
-          alt="Ferris Wheel"
+          alt="El Cap"
           class="photo"
           loading="lazy"
-          src="https://taylorlapeyre.imgix.net/50.jpg"
+          src="https://taylorlapeyre.imgix.net/d7.jpg"
         />
       </picture>
       <figcaption class="photo-caption">
@@ -611,28 +299,6 @@
           class="photo"
           loading="lazy"
           src="https://taylorlapeyre.imgix.net/20.jpg"
-        />
-      </picture>
-      <figcaption class="photo-caption">
-        
-      </figcaption>
-    </figure>
-  
-    <figure class=" photo-container">
-      <picture>
-        <source
-          media="(min-width: 992px)"
-          srcset="https://taylorlapeyre.imgix.net/47.jpg?w=1400"
-        />
-        <source
-          media="(max-width: 992px)"
-          srcset="https://taylorlapeyre.imgix.net/47.jpg?w=700"
-        />
-        <img
-          alt="Mendocino Spikeball"
-          class="photo"
-          loading="lazy"
-          src="https://taylorlapeyre.imgix.net/47.jpg"
         />
       </picture>
       <figcaption class="photo-caption">
@@ -706,6 +372,50 @@
       </figcaption>
     </figure>
   
+    <figure class="vertical photo-container">
+      <picture>
+        <source
+          media="(min-width: 992px)"
+          srcset="https://taylorlapeyre.imgix.net/d4.jpg?w=1000"
+        />
+        <source
+          media="(max-width: 992px)"
+          srcset="https://taylorlapeyre.imgix.net/d4.jpg?w=600"
+        />
+        <img
+          alt="SW Corner, Joshua Tree"
+          class="photo"
+          loading="lazy"
+          src="https://taylorlapeyre.imgix.net/d4.jpg"
+        />
+      </picture>
+      <figcaption class="photo-caption">
+        
+      </figcaption>
+    </figure>
+  
+    <figure class=" photo-container">
+      <picture>
+        <source
+          media="(min-width: 992px)"
+          srcset="https://taylorlapeyre.imgix.net/d17.jpg?w=1400"
+        />
+        <source
+          media="(max-width: 992px)"
+          srcset="https://taylorlapeyre.imgix.net/d17.jpg?w=700"
+        />
+        <img
+          alt="Reader at Corona Heights"
+          class="photo"
+          loading="lazy"
+          src="https://taylorlapeyre.imgix.net/d17.jpg"
+        />
+      </picture>
+      <figcaption class="photo-caption">
+        
+      </figcaption>
+    </figure>
+  
     <figure class=" photo-container">
       <picture>
         <source
@@ -772,6 +482,50 @@
       </figcaption>
     </figure>
   
+    <figure class="vertical photo-container">
+      <picture>
+        <source
+          media="(min-width: 992px)"
+          srcset="https://taylorlapeyre.imgix.net/d3.jpg?w=1000"
+        />
+        <source
+          media="(max-width: 992px)"
+          srcset="https://taylorlapeyre.imgix.net/d3.jpg?w=600"
+        />
+        <img
+          alt="Jessie"
+          class="photo"
+          loading="lazy"
+          src="https://taylorlapeyre.imgix.net/d3.jpg"
+        />
+      </picture>
+      <figcaption class="photo-caption">
+        
+      </figcaption>
+    </figure>
+  
+    <figure class="vertical photo-container">
+      <picture>
+        <source
+          media="(min-width: 992px)"
+          srcset="https://taylorlapeyre.imgix.net/d1.jpg?w=1000"
+        />
+        <source
+          media="(max-width: 992px)"
+          srcset="https://taylorlapeyre.imgix.net/d1.jpg?w=600"
+        />
+        <img
+          alt="Zion"
+          class="photo"
+          loading="lazy"
+          src="https://taylorlapeyre.imgix.net/d1.jpg"
+        />
+      </picture>
+      <figcaption class="photo-caption">
+        
+      </figcaption>
+    </figure>
+  
     <figure class=" photo-container">
       <picture>
         <source
@@ -809,6 +563,28 @@
           class="photo"
           loading="lazy"
           src="https://taylorlapeyre.imgix.net/21.jpg"
+        />
+      </picture>
+      <figcaption class="photo-caption">
+        
+      </figcaption>
+    </figure>
+  
+    <figure class="vertical photo-container">
+      <picture>
+        <source
+          media="(min-width: 992px)"
+          srcset="https://taylorlapeyre.imgix.net/48.jpg?w=1000"
+        />
+        <source
+          media="(max-width: 992px)"
+          srcset="https://taylorlapeyre.imgix.net/48.jpg?w=600"
+        />
+        <img
+          alt="SFFD"
+          class="photo"
+          loading="lazy"
+          src="https://taylorlapeyre.imgix.net/48.jpg"
         />
       </picture>
       <figcaption class="photo-caption">
@@ -864,6 +640,28 @@
       <picture>
         <source
           media="(min-width: 992px)"
+          srcset="https://taylorlapeyre.imgix.net/d6.jpg?w=1400"
+        />
+        <source
+          media="(max-width: 992px)"
+          srcset="https://taylorlapeyre.imgix.net/d6.jpg?w=700"
+        />
+        <img
+          alt="Hiro"
+          class="photo"
+          loading="lazy"
+          src="https://taylorlapeyre.imgix.net/d6.jpg"
+        />
+      </picture>
+      <figcaption class="photo-caption">
+        
+      </figcaption>
+    </figure>
+  
+    <figure class=" photo-container">
+      <picture>
+        <source
+          media="(min-width: 992px)"
           srcset="https://taylorlapeyre.imgix.net/26.jpg?w=1400"
         />
         <source
@@ -886,6 +684,28 @@
       <picture>
         <source
           media="(min-width: 992px)"
+          srcset="https://taylorlapeyre.imgix.net/d19.jpg?w=1000"
+        />
+        <source
+          media="(max-width: 992px)"
+          srcset="https://taylorlapeyre.imgix.net/d19.jpg?w=600"
+        />
+        <img
+          alt="Reader at Alamo"
+          class="photo"
+          loading="lazy"
+          src="https://taylorlapeyre.imgix.net/d19.jpg"
+        />
+      </picture>
+      <figcaption class="photo-caption">
+        
+      </figcaption>
+    </figure>
+  
+    <figure class="vertical photo-container">
+      <picture>
+        <source
+          media="(min-width: 992px)"
           srcset="https://taylorlapeyre.imgix.net/36.jpg?w=1000"
         />
         <source
@@ -897,28 +717,6 @@
           class="photo"
           loading="lazy"
           src="https://taylorlapeyre.imgix.net/36.jpg"
-        />
-      </picture>
-      <figcaption class="photo-caption">
-        
-      </figcaption>
-    </figure>
-  
-    <figure class=" photo-container">
-      <picture>
-        <source
-          media="(min-width: 992px)"
-          srcset="https://taylorlapeyre.imgix.net/45.jpg?w=1400"
-        />
-        <source
-          media="(max-width: 992px)"
-          srcset="https://taylorlapeyre.imgix.net/45.jpg?w=700"
-        />
-        <img
-          alt="Pink flowers"
-          class="photo"
-          loading="lazy"
-          src="https://taylorlapeyre.imgix.net/45.jpg"
         />
       </picture>
       <figcaption class="photo-caption">

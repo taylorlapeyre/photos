@@ -68,9 +68,9 @@
         width: 100%;
         border-radius: 4px;
         box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px,
-                    rgba(0, 0, 0, 0) 0px 0px 0px 0px,
-                    rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
-                    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+          rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+          rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+          rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
       }
 
       .photo-caption {
@@ -85,23 +85,6 @@
         margin-top: 50px;
         font-size: 12px;
         line-height: 1.4;
-      }
-
-      .controls a {
-        font-size: 12px;
-        line-height: 1.4;
-      }
-
-      .tab-content {
-        display: none;
-      }
-
-      .tab-content:target {
-        display: grid;
-      }
-
-      .tab-content:not(:target) ~ .tab-content {
-        display: grid;
       }
     </style>
   </head>
@@ -120,13 +103,8 @@
           To an admiring Bog!
         </p>
         <h1 class="page-title">— Emily Dickinson</h1>
-        <div class="controls">
-          <a href="#analog">Analog</a> /
-          <a href="#digital">Digital</a>
-        </div>
       </header>
     </div>
-    <section id="digital" class="tab-content page-container"></section>
-    <section id="analog" class="tab-content page-container"></section>
+    <section id="portfolio" class="tab-content page-container"></section>
   </body>
 </html>

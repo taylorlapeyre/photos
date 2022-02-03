@@ -1,44 +1,42 @@
-ANALOG = [
-  { url: "https://taylorlapeyre.imgix.net/48.jpg", caption: '', framing: 'portrait', title: 'SFFD' },
+PORTFOLIO = [
+  { url: "https://taylorlapeyre.imgix.net/d2.jpg", caption: '', framing: 'full-bleed', title: 'After Six' },
+  { url: "https://taylorlapeyre.imgix.net/d14.jpg", caption: '', framing: 'landscape', title: 'Cathedral Peak, Tuolumne' },
+  { url: "https://taylorlapeyre.imgix.net/d10.jpg", caption: '', framing: 'portrait', title: 'Red-Tailed Hawk' },
   { url: "https://taylorlapeyre.imgix.net/46.jpg", caption: '', framing: 'landscape', title: 'Bus stop in Mendocino' },
   { url: "https://taylorlapeyre.imgix.net/42.jpg", caption: '', framing: 'portrait', title: 'Prayer flags' },
   { url: "https://taylorlapeyre.imgix.net/49.jpg", caption: '', framing: 'portrait', title: 'KD Court' },
-  { url: "https://taylorlapeyre.imgix.net/50.jpg", caption: '', framing: 'portrait', title: 'Ferris Wheel' },
+  { url: "https://taylorlapeyre.imgix.net/d16.jpg", caption: '', framing: 'full-bleed', title: 'Hawk' },
+  { url: "https://taylorlapeyre.imgix.net/d7.jpg", caption: '', framing: 'portrait', title: 'El Cap' },
   { url: "https://taylorlapeyre.imgix.net/20.jpg", caption: '', framing: 'landscape', title: 'Corona Heights' },
-  { url: "https://taylorlapeyre.imgix.net/47.jpg", caption: '', framing: 'landscape', title: 'Mendocino Spikeball' },
   { url: "https://taylorlapeyre.imgix.net/43.jpg", caption: '', framing: 'landscape', title: 'Yellow Bernal house' },
   { url: "https://taylorlapeyre.imgix.net/41.jpg", caption: '', framing: 'landscape', title: 'Hio & Jessie Portrait' },
   { url: "https://taylorlapeyre.imgix.net/34.jpg", caption: '', framing: 'landscape', title: 'Living Room Table' },
+  { url: "https://taylorlapeyre.imgix.net/d4.jpg", caption: '', framing: 'portrait', title: 'SW Corner, Joshua Tree' },
+  { url: "https://taylorlapeyre.imgix.net/d17.jpg", caption: '', framing: 'landscape', title: 'Reader at Corona Heights' },
   { url: "https://taylorlapeyre.imgix.net/29.jpg", caption: '', framing: 'landscape', title: "Sunroom near Alamo Square" },
   { url: "https://taylorlapeyre.imgix.net/22.jpg", caption: '', framing: 'landscape', title: 'Plum blossoms' },
   { url: "https://taylorlapeyre.imgix.net/28.jpg", caption: '', framing: 'landscape', title: "Roofs by Grandview" },
-  { url: "https://taylorlapeyre.imgix.net/16.jpg", caption: '', framing: 'landscape', title: 'Sunset Over Cole Valley, Twin Peaks in foreground' },
-  { url: "https://taylorlapeyre.imgix.net/21.jpg", caption: '', framing: 'landscape', title: 'DMV' },
-  { url: "https://taylorlapeyre.imgix.net/7.jpg", caption: '', framing: 'landscape', title: 'Nob Hill' },
-  { url: "https://taylorlapeyre.imgix.net/12.jpg", caption: '', framing: 'landscape', title: 'Windows, Steiner St.' },
-  { url: "https://taylorlapeyre.imgix.net/26.jpg", caption: '', framing: 'landscape', title: 'Peek' },
-  { url: "https://taylorlapeyre.imgix.net/36.jpg", caption: '', framing: 'portrait', title: 'Alamo Square pastels' },
-  { url: "https://taylorlapeyre.imgix.net/45.jpg", caption: '', framing: 'landscape', title: 'Pink flowers' },
-]
-
-DIGITAL = [
-  { url: "https://taylorlapeyre.imgix.net/d19.jpg", caption: '', framing: 'portrait', title: 'Reader at Alamo' },
   { url: "https://taylorlapeyre.imgix.net/d3.jpg", caption: '', framing: 'portrait', title: 'Jessie' },
   { url: "https://taylorlapeyre.imgix.net/d1.jpg", caption: '', framing: 'portrait', title: 'Zion' },
-  { url: "https://taylorlapeyre.imgix.net/d2.jpg", caption: '', framing: 'full-bleed', title: 'After Six' },
-  { url: "https://taylorlapeyre.imgix.net/d4.jpg", caption: '', framing: 'portrait', title: 'SW Corner, Joshua Tree' },
-  { url: "https://taylorlapeyre.imgix.net/d7.jpg", caption: '', framing: 'portrait', title: 'El Cap' },
-  { url: "https://taylorlapeyre.imgix.net/d14.jpg", caption: '', framing: 'landscape', title: 'Cathedral Peak, Tuolumne' },
-  { url: "https://taylorlapeyre.imgix.net/d17.jpg", caption: '', framing: 'landscape', title: 'Reader at Corona Heights' },
-  { url: "https://taylorlapeyre.imgix.net/d16.jpg", caption: '', framing: 'full-bleed', title: 'Hawk' },
-  { url: "https://taylorlapeyre.imgix.net/d18.jpg", caption: '', framing: 'landscape', title: 'Pacifc-slope Flycatcher' },
-  { url: "https://taylorlapeyre.imgix.net/d10.jpg", caption: '', framing: 'portrait', title: 'Red-Tailed Hawk' },
-  { url: "https://taylorlapeyre.imgix.net/d8.jpg", caption: '', framing: 'landscape', title: 'California Scrub-Jay' },
+  { url: "https://taylorlapeyre.imgix.net/16.jpg", caption: '', framing: 'landscape', title: 'Sunset Over Cole Valley, Twin Peaks in foreground' },
+  { url: "https://taylorlapeyre.imgix.net/21.jpg", caption: '', framing: 'landscape', title: 'DMV' },
+  { url: "https://taylorlapeyre.imgix.net/48.jpg", caption: '', framing: 'portrait', title: 'SFFD' },
+  { url: "https://taylorlapeyre.imgix.net/7.jpg", caption: '', framing: 'landscape', title: 'Nob Hill' },
+  { url: "https://taylorlapeyre.imgix.net/12.jpg", caption: '', framing: 'landscape', title: 'Windows, Steiner St.' },
   { url: "https://taylorlapeyre.imgix.net/d6.jpg", caption: '', framing: 'landscape', title: 'Hiro' },
-  { url: "https://taylorlapeyre.imgix.net/d5.jpg", caption: '', framing: 'landscape', title: 'Coot' },
-  { url: "https://taylorlapeyre.imgix.net/d11.jpg", caption: '', framing: 'full-bleed', title: 'Ocean Beach' },
-  { url: "https://taylorlapeyre.imgix.net/d15.jpg", caption: '', framing: 'portrait', title: 'Jessie Shadow' },
+  { url: "https://taylorlapeyre.imgix.net/26.jpg", caption: '', framing: 'landscape', title: 'Peek' },
+  { url: "https://taylorlapeyre.imgix.net/d19.jpg", caption: '', framing: 'portrait', title: 'Reader at Alamo' },
+  { url: "https://taylorlapeyre.imgix.net/36.jpg", caption: '', framing: 'portrait', title: 'Alamo Square pastels' },
 ]
+
+# DIGITAL = [
+#   { url: "https://taylorlapeyre.imgix.net/d19.jpg", caption: '', framing: 'portrait', title: 'Reader at Alamo' },
+#   { url: "https://taylorlapeyre.imgix.net/d18.jpg", caption: '', framing: 'landscape', title: 'Pacifc-slope Flycatcher' },
+#   { url: "https://taylorlapeyre.imgix.net/d8.jpg", caption: '', framing: 'landscape', title: 'California Scrub-Jay' },
+#   { url: "https://taylorlapeyre.imgix.net/d5.jpg", caption: '', framing: 'landscape', title: 'Coot' },
+#   { url: "https://taylorlapeyre.imgix.net/d11.jpg", caption: '', framing: 'full-bleed', title: 'Ocean Beach' },
+#   { url: "https://taylorlapeyre.imgix.net/d15.jpg", caption: '', framing: 'portrait', title: 'Jessie Shadow' },
+# ]
 
 BLACK_AND_WHITE = [
   { url: "https://taylorlapeyre.imgix.net/bw1.jpg", caption: '', framing: 'landscape', title: 'Laundry' },
@@ -94,14 +92,9 @@ index = File.read('index.template.html')
 
 generated_index =
   index
-  .gsub(/<section id="analog" class="tab-content page-container">(.?|\n)*?<\/section>/, %Q{
-    <section id="analog" class="tab-content page-container">
-      #{(ANALOG + BLACK_AND_WHITE).map { |image| generate_image_tag(image) }.join('')}
-    </section>
-  })
-  .gsub(/<section id="digital" class="tab-content page-container">(.?|\n)*?<\/section>/, %Q{
-    <section id="digital" class="tab-content page-container">
-      #{DIGITAL.map { |image| generate_image_tag(image) }.join('')}
+  .gsub(/<section id="portfolio" class="tab-content page-container">(.?|\n)*?<\/section>/, %Q{
+    <section id="portfolio" class="tab-content page-container">
+      #{(PORTFOLIO + BLACK_AND_WHITE).map { |image| generate_image_tag(image) }.join('')}
     </section>
   })
 
